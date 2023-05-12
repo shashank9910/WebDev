@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            Payment Gateway
+        </title>
+
+        <style>
+            .first{
+                background-color: crimson;
+            }
+            hr{
+                border: none;
+                height: 60px;
+                text-align: center;
+                background-color: white;
+            }
+            form{
+                text-align: center;
+            }
+        </style>
+    </head>
+<body>
+
+    <div class="first">
+       <a href="https://www.axisbank.com/"target="_blank"><img src="axis1.png" /></a> 
+    </div>
+
+    &ensp;
+
+    <form class="form">
+        Choose a payment method and click <b>Continue...</b><br/>
+        &emsp;<br/>
+        <input  type="radio" name="card" value="visa"/><img src="visa.jpg" width="90" height="70" />
+        <input  type="radio" name="card" value="visa"/><img src="master.jpg" width="90" height="70" />
+        <input  type="radio" name="card" value="visa"/><img src="rupay.png" width="90" height="70" /> <br/>
+        &emsp;<br/>
+        <input  type="radio" name="Card Type" value="Credit"/><b>Credit Card</b>
+        <input  type="radio" name="Card Type" value="Credit"/><b>Debit Card</b><br/>
+        &emsp;<br/>
+
+        Please fill the details below.<br/>
+        &emsp;<br/>
+      Name on card :&ensp;<input type="text" name="name"/><br/>
+        &emsp;<br/>
+        &emsp;&ensp;Card No. :&emsp;<input type="password" name="card no."/><br>
+        &emsp;<br/>
+        Expiration Date : &ensp;
+        <select name="month">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <select name="year">
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+
+        </select><br/>
+        &emsp;<br/>
+        &emsp; &emsp;&ensp;Security code :&ensp;
+        <input type="password" name="cvv"/> <a href="https://www.cvvnumber.com/cvv.html#:~:text=Turn%20your%20card%20over%20and,CVV%20number%20%2F%20Card%20Security%20Code." target="_blank"><u>(help)</u></a><br/>
+
+        &emsp;<br/>
+
+        <input type="submit" name="Agree to give detail" value="submit"/>
+
+    </form>
+
+
+
+
+</body>
+
+</html>
